@@ -14,7 +14,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0px 200px;
+    margin: 0px 130px;
     align-items: center;
 
 
@@ -35,6 +35,7 @@ nav ul {
     font-style: normal;
     font-weight: 800;
     font-size: 45px;
+    
 
 }
 
