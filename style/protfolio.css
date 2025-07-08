@@ -54,6 +54,19 @@ nav ul {
     padding: 18px 35px;
 
 }
+.btn-secendary {
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF8F3;
+    font-weight: bold;
+    font-size: 20px;
+
+    color: #FD6E0A;
+    border: 1px #FD6E0A solid ;
+    padding: 18px 35px;
+    margin-left: 20px;
+
+}
 .mardy{
     margin-left: 30px;
 }
@@ -217,6 +230,7 @@ skill {
 .resume-button{
     margin-top: 50px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 /* section style */
@@ -251,6 +265,6 @@ a{
 }
 .what{
     margin-top: 0px;
-    padding:  0px 150px;
+    padding:  0px 80px;
     text-align: center;
 }
