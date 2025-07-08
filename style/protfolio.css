@@ -120,7 +120,7 @@ main {
     margin-bottom: 30px;
     justify-content: center;
     display: flex;
-    padding: 0px 150px;
+    padding: 0px 50px;
  
 }
 
@@ -248,4 +248,9 @@ a{
     padding-right: 30px;
     
 
+}
+.what{
+    margin-top: 0px;
+    padding:  0px 150px;
+    text-align: center;
 }
