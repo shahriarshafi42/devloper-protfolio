@@ -15,6 +15,7 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 50px 200px;
+    align-items: center;
 
 
 }
@@ -45,7 +46,7 @@ nav ul {
     height: 64px;
     border-radius: 5px;
     background: #FD6E0A;
-    font-weight: 700px;
+    font-weight: bold;
     font-size: 20px;
 
     color: #FFFFFF;
@@ -53,12 +54,17 @@ nav ul {
     padding: 18px 35px;
 
 }
+.mardy{
+    margin-left: 30px;
+}
 
 /* BANNAER style */
 .banner {
-    margin: 0px 200px;
+    margin: 0px 100px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    
 }
 
 .banner-sub-title {
@@ -98,10 +104,13 @@ main {
 }
 
 .section-title {
+    display: flex;
 
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     font-size: 35px;
     text-align: center;
+    justify-content: center;
+    
 
 }
 
@@ -109,6 +118,10 @@ main {
     font-size: 18px;
     color: #757575;
     margin-bottom: 30px;
+    justify-content: center;
+    display: flex;
+    padding: 0px 150px;
+ 
 }
 
 
@@ -230,4 +243,9 @@ skill {
 }
 a{
     text-decoration: none;
+}
+.imogi img {
+    padding-right: 30px;
+    
+
 }
