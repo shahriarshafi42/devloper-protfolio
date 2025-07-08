@@ -14,7 +14,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
     align-items: center;
 
 
@@ -60,7 +60,6 @@ nav ul {
     background: #FFF8F3;
     font-weight: bold;
     font-size: 20px;
-
     color: #FD6E0A;
     border: 1px #FD6E0A solid ;
     padding: 18px 35px;
@@ -83,7 +82,7 @@ nav ul {
 .banner-sub-title {
     font-weight: 600;
     font-size: 45px;
-    margin: 20px;
+    margin: 0 px;
 
 }
 
@@ -97,7 +96,7 @@ nav ul {
     color: #757575;
     font-weight: 400;
     font-size: 18px;
-    margin: 30px;
+    margin-bottom: 30px;
 }
 
 /* main section */
@@ -224,7 +223,7 @@ skill {
 }
 
 .resume-title {
-    font-weight: 700;
+    font-weight: 700;   
     font-size: 30px;
 }
 .resume-button{
