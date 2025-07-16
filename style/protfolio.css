@@ -268,3 +268,44 @@ a{
     padding:  0px 80px;
     text-align: center;
 }
+
+
+/* responsive design */
+.hide{
+
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .skills-container, .resume-content, .contact, .about-info-container, 
+    .banner, nav, nav>ul {
+        flex-direction: column;
+    }
+    nav>ul{
+        gap: 5px;
+    }
+    .banner{
+        margin: 10px;
+    }
+    .header{
+        background-image: none;
+    }
+    .contact, .about{
+        padding: 20px;
+        
+    }
+    input[type="text"],input[type="email"],textarea{
+        width: calc(100% - 40px);
+    }
+    .mardy-img{
+        width: 100%;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+}
+/* tablet devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .banner{
+        flex-direction: column;
+    }
+}
